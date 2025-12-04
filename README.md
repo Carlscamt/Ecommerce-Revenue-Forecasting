@@ -267,25 +267,6 @@ ecommerce-forecasting/
 
 ---
 
-## 📊 Sample Visualizations
-
-### 1. Exponential Decay Curve Fit
-
-```
-Retention Rate (%)
-100 |
-    | ●●● (observed cohort data)
- 80 | ●  ╱ (exponential fit)
-    | ●  ╱
- 60 | ●  ╱
-    |  ╱╱
- 40 |  ╱╱●
-    | ╱  ●
- 20 |╱    ●
-    |     ●
-  0 |_____|_____|_____|_____|
-    0     3     6     9    12
-         Months Since Acquisition
 ```
 
 **Fit Quality**: R² = 0.94 (excellent)
@@ -411,7 +392,7 @@ Then open a Pull Request!
 
 ## 👤 Author
 
-**[Carlos Martinez]**
+**Carlos Martinez**
 
 - LinkedIn: [Your Profile](www.linkedin.com/in/carlscamt)
 
