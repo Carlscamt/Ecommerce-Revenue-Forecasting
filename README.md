@@ -267,46 +267,6 @@ ecommerce-forecasting/
 
 ---
 
-```
-
-**Fit Quality**: R² = 0.94 (excellent)
-
-### 2. Seasonality Index by Month
-
-```
-Multiplier
-1.4 | ┌─────┐
-    | │ JAN │
-1.2 | │ 1.28│  ┌─────┐
-    | │     │  │ DEC │
-1.0 | │─────┤  │ 1.15│
-    | │ AUG │──┤     │
-0.8 | │0.75 │  └─────┘
-    | └─────┘
-0.6 |
-    └──────────────────────
-      Jan Feb Mar Apr May Jun...
-```
-
-### 3. 2026 Revenue Forecast
-
-```
-Monthly Revenue ($)
-40K | ╱╲    ╱╲    ╱╲
-    │╱  ╲  ╱  ╲  ╱  ╲
-30K │    ╲╱    ╲╱    ╲  TREND: Declining retention
-    │
-20K │               + Offset by new cohorts
-    │
-10K │
-    └─────────────────────────
-      Jan Feb Mar Apr May...Dec
-      
-Total Annual: $284,909.92
-```
-
----
-
 ## 🔮 Advanced Features (Roadmap)
 
 - [ ] **Multi-Product Forecasting**: Separate decay curves per product category
